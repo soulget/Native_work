@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="37px" viewBox="0 0 56 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>30元</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="14.6666667" cy="25.1428571" rx="14.6666667" ry="8.38095238"></ellipse>
+        <filter x="-5.1%" y="-8.9%" width="110.2%" height="135.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.784313725   0 0 0 0 0.215686275  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-3" cx="30.3809524" cy="18.8571429" rx="14.6666667" ry="8.38095238"></ellipse>
+        <filter x="-5.1%" y="-8.9%" width="110.2%" height="135.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.784313725   0 0 0 0 0.215686275  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-5" cx="30.3809524" cy="13.6190476" rx="14.6666667" ry="8.38095238"></ellipse>
+        <filter x="-5.1%" y="-8.9%" width="110.2%" height="135.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.784313725   0 0 0 0 0.215686275  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-7" cx="30.3809524" cy="8.38095238" rx="14.6666667" ry="8.38095238"></ellipse>
+        <filter x="-5.1%" y="-8.9%" width="110.2%" height="135.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.784313725   0 0 0 0 0.215686275  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-9" cx="56.5714286" cy="26.7142857" rx="8.38095238" ry="4.71428571"></ellipse>
+        <filter x="-37.5%" y="-66.7%" width="175.0%" height="254.5%" filterUnits="objectBoundingBox" id="filter-10">
+            <feGaussianBlur stdDeviation="2.0952381" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-43.5%" y="-77.3%" width="186.9%" height="275.8%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.952941176   0 0 0 0 0.784313725   0 0 0 0 0.215686275  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="H5活动页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="输入账号密码" transform="translate(-319.000000, -211.000000)">
+            <g id="编组-8" transform="translate(319.000000, 211.000000)">
+                <g id="编组">
+                    <g id="椭圆形备份">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFE661" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="椭圆形备份">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFE661" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="椭圆形备份">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FFE661" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#FFE661" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <g id="椭圆形备份-3" filter="url(#filter-10)" transform="translate(56.571429, 26.714286) rotate(127.000000) translate(-56.571429, -26.714286) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-9"></use>
+                        <use fill="#FFE661" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

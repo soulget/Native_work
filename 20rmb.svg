@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="24px" viewBox="0 0 31 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>20元</title>
+    <desc>Created with Sketch.</desc>
+    <g id="H5活动页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="输入账号密码" transform="translate(-32.000000, -78.000000)">
+            <g id="编组-2" transform="translate(32.000000, 78.000000)">
+                <g id="编组-5">
+                    <path d="M-2.48689958e-14,10 C0.779390157,13.8077901 2.48617022,18.3505219 5.1203402,23.6281954 C18.4482045,22.0816916 26.904646,18.8179537 30.4896647,13.8369815 C30.6850598,13.3629083 28.926184,8.75058109 25.2130374,1.8189894e-12 C19.8224927,5.7745242 11.4181469,9.10785753 -2.48689958e-14,10 Z" id="路径-2" fill="#FFD3DF"></path>
+                    <path d="M1.31450406e-13,10 C1.22746794,15.0757893 2.93424801,19.6185211 5.1203402,23.6281954 C5.39152234,23.6281954 6.94209548,23.4275573 9.77205962,23.026281 C6.93706384,18.7633929 5.17841658,14.2504373 4.49611784,9.48741422" id="路径-3" fill="#FFFFFF"></path>
+                    <text id="¥20" transform="translate(18.000000, 13.000000) rotate(-20.000000) translate(-18.000000, -13.000000) " font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" fill="#FF7DAD">
+                        <tspan x="9" y="17">¥20</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

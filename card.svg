@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="315px" height="308px" viewBox="0 0 315 308" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>编组 6备份</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="157.5" cy="178.8402" r="36.5"></circle>
+        <filter x="-15.1%" y="-13.7%" width="130.1%" height="130.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="H5活动页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="去查看" transform="translate(-34.000000, -179.000000)">
+            <g id="编组-6备份">
+                <g id="编组-4" transform="translate(34.000000, 179.000000)">
+                    <g id="编组-2" transform="translate(0.000000, 0.659800)">
+                        <path d="M2.99356181,96.931084 C61.2961394,50.1529609 111.938638,17.8425996 154.921057,-9.80548975e-13 C187.970676,13.5800961 240.214075,45.8946107 311.651254,96.9435439 C313.752836,98.4453305 315,100.869423 315,103.452447 L315,188.34019 C315,192.758468 311.418278,196.34019 307,196.34019 L8,196.34019 C3.581722,196.34019 5.41083001e-16,192.758468 0,188.34019 L0,103.170929 C-5.7961304e-06,100.744645 1.10110797,98.4494635 2.99356181,96.931084 Z" id="矩形" fill="#F33B2B"></path>
+                        <path d="M38,23.3401999 L156.098264,23.3401999 L156.098264,23.3401999 L277,23.3401999 C281.418278,23.3401999 285,26.9219219 285,31.3401999 L285,208.3402 C285,212.758478 281.418278,216.3402 277,216.3402 L38,216.3402 C33.581722,216.3402 30,212.758478 30,208.3402 L30,31.3401999 C30,26.9219219 33.581722,23.3401999 38,23.3401999 Z" id="矩形备份-5" fill="#FFFEFF"></path>
+                        <path d="M0,130.138514 L153,183.3402 L315,130.138514 L315,299.3402 C315,303.758478 311.418278,307.3402 307,307.3402 L8,307.3402 C3.581722,307.3402 1.62379597e-14,303.758478 0,299.3402 L0,130.138514 L0,130.138514 Z" id="矩形" fill="#FF634D"></path>
+                        <polygon id="路径-10" fill-opacity="0.386991914" fill="#96291A" points="0 121.230017 6.75537941e-17 130.138514 156 184.3402"></polygon>
+                        <polygon id="路径-10" fill-opacity="0.386991914" fill="#96291A" transform="translate(235.500000, 152.285109) scale(-1, 1) translate(-235.500000, -152.285109) " points="156 121.230017 156 130.138514 315 183.3402"></polygon>
+                        <g id="椭圆形">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <circle stroke="#FDD55B" stroke-width="4" stroke-linejoin="square" fill="#FE9702" fill-rule="evenodd" cx="157.5" cy="178.8402" r="34.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

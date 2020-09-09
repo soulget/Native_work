@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>53快服抽奖活动</title>
+    <link rel="stylesheet" href="index.css">  
+</head>
+<body>
+    <div class="container" >
+        <div class="bg_index"></div>
+        <div class="acc_error"> 账号输入有误</div>
+        <div class="pass_error">密码错误</div>
+        <img class="bg1" src="20rmb.svg" >
+        <img class="bg2" src="30rmb.svg" >
+        <img class="bg3" src="50rmb.svg" >
+        <img class="bg4" src="person.svg" >
+        <img class="bg5" src="corn3.svg" >
+        <img class="bg7" src="corn1.svg" >
+        <img class="bg6" src="corn2.svg" >
+        <div class="title">限时领取工单优惠券</div>
+        <div class="text1">最低</div>
+        <img src="0rmb.svg" class="con0">
+        <div class="text2">元开通工单系统</div>
+        <div class="text_msg">登录53快服账号，即可抽奖赢取工单系统限时优惠券！</div>
+        <div class="login_page" style="display: none;">
+            <input type="text" id="account" placeholder="请输入邮箱/手机号">
+            <input type="password" id="password" placeholder="请输入密码">
+            <button class="login" onclick="login_53()" disabled>登录53账号立即抽奖</button>
+        </div>
+        <div class="luck_page">
+            <img src="luck.svg" class="luck">
+            <button class="to_luck" onclick="go_luck()">立即抽奖</button>
+            <p class="my_coupon">我的优惠券>></p>
+        </div>
+        <!-- <div id="qrDiv"></div> -->
+        <div class="alert_card">
+            <img src="card.svg" class="bg_card">
+            <img src="close.svg" class="close">
+            <p class="congratulaion">恭喜您获得优惠券</p>
+            <p class="detail">点击“去查看”，即可查看收到的优惠券详情</p>
+            <button class="to_read">去查看</button>
+        </div>
+    </div>
+    <div class="detail-page" style="display:none">
+        <div class="header">共 <span style="color: #FF7A94;">50</span> 张可用优惠券</div>
+        <ul class="cube_card">
+            <li class="cube_item">
+                <img src="card1.svg" class="card1">
+                <img src="card2.svg" class="card2">
+                <span class="symbol">¥</span>
+                <span class="money">50</span>
+                <span class="discount">满50减50</span>
+                <span class="card_name">工单优惠券</span>
+                <span class="card_num">x1</span>
+                <span class="deadline">有效期限：2020.07.21 ~ 2021.07.21</span>
+            </li>
+            <li class="cube_item">
+                <img src="card1.svg" class="card1">
+                <img src="card2.svg" class="card2">
+                <span class="symbol">¥</span>
+                <span class="money">30</span>
+                <span class="discount">满50减30</span>
+                <span class="card_name">工单优惠券</span>
+                <span class="card_num">x10</span>
+                <span class="deadline">有效期限：2020.07.21 ~ 2021.07.21</span>
+            </li>
+            <li class="cube_item">
+                <img src="card1.svg" class="card1">
+                <img src="card2.svg" class="card2">
+                <span class="symbol">¥</span>
+                <span class="money">20</span>
+                <span class="discount">满50减20</span>
+                <span class="card_name">工单优惠券</span>
+                <span class="card_num">x20</span>
+                <span class="deadline">有效期限：2020.07.21 ~ 2021.07.21</span>
+            </li>
+            <li class="cube_item">
+                <img src="card1.svg" class="card1">
+                <img src="card2.svg" class="card2">
+                <span class="symbol">¥</span>
+                <span class="money">10</span>
+                <span class="discount">满50减10</span>
+                <span class="card_name">工单优惠券</span>
+                <span class="card_num">x10</span>
+                <span class="deadline">有效期限：2020.07.21 ~ 2021.07.21</span>
+            </li>
+            <li class="cube_item">
+                <img src="card1.svg" class="card1">
+                <img src="card2.svg" class="card2">
+                <span class="symbol">¥</span>
+                <span class="money">5</span>
+                <span class="discount">满50减5</span>
+                <span class="card_name">工单优惠券</span>
+                <span class="card_num">x1</span>
+                <span class="deadline">有效期限：2020.07.21 ~ 2021.07.21</span>
+            </li>
+        </ul>
+        <div class="step">
+            <img src="tointro.svg" class="read_dis"></img>
+            <p class="msg_remind">温馨提示：子账号抽取的优惠券，归属到主账号下，
+                请前往快服网登录主账号查看优惠券。</p>
+            <div class="step1">step1</div>
+            <div class="intotxt">进入快服网-点击“我的快服”</div>
+            <img src="intro.svg" class="intro">
+            <div class="step2">step2</div>
+            <div class="intotxt2">查看我的账户-我的优惠券</div>
+            <img src="yhq.svg" class="intro2">
+        </div>
+    </div>
+</body>
+<script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+<script>
+   
+    $("input").on('keyup',function () {
+        if($("#account").val() !== '' && $("#password").val() !== ''){
+          $('.login').removeAttr("disabled");
+          $(".login").addClass("login_active");
+        }else{
+          $('.login').attr("disabled",true);
+          $(".login").removeClass("login_active");
+        }
+    })
+
+    function go_luck() { 
+        $(".login").addClass("login_active");
+        console.log('login!!!')
+        $(".bg_index").show();
+        $(".alert_card").show();
+    }
+    $(".close").click(function () {
+        $(".alert_card") .hide();
+        $(".bg_index").hide();
+    })
+
+    // $("#qrDiv").qrcode({ 
+    //     render: "canvas",
+    //     width: 100, //宽度 
+    //     height: 110, //高度 
+    //     text: "aaa", //任意内容 ,
+    //         //中间logo start
+    //         mode: 4,
+    //         mSize: 11 * 0.01,
+    //         mPosX: 50 * 0.01,
+    //         mPosY: 50 * 0.01,
+    //         image:$('#img-buffer')[0],//logo图片
+    //         //中间logo end
+            
+    //     });
+    // //从 canvas 提取图片 image 
+    // function convertCanvasToImage(canvas) { 
+    // //新Image对象，可以理解为DOM 
+    // var image = new Image(); 
+    // // canvas.toDataURL 返回的是一串Base64编码的URL，当然,浏览器自己肯定支持 
+    // // 指定格式 PNG 
+    // image.src = canvas.toDataURL("image/png"); 
+    // return image; 
+    // } 
+    // //获取网页中的canvas对象 
+    // var mycanvas1=document.getElementsByTagName('canvas')[0]; 
+    // //将转换后的img标签插入到html中 
+    // var img=convertCanvasToImage(mycanvas1); 
+    // $('#imagQrDiv').append(img);//imagQrDiv表示你要插入的容器id
+
+</script>
+</html>
